@@ -1,9 +1,9 @@
 const express = require('express');
 const routes = require('./routes/index.js');
 const path = require('path');
-const bodyParser = require('body-parser');
+const bodyParser = require('body-parser'); 
 
-const app = express();
+const app = express(); 
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));

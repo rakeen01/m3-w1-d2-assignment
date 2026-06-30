@@ -17,10 +17,10 @@ body {
 
 .form-registration {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
 }
 
 .form-registration input {
     width: 100%;
-    margin: 0px 0 10px;
+    margin: 0px 0 10px; 
 }
